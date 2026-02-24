@@ -22,7 +22,7 @@ if __name__ == "__main__":
         print(f"Usage: python {sys.argv[0]} -u [URL] -n [nameFile]")
         exit(1)
     
-    match = re.sub("seg-[0-9]+-", "seg-{video}-", url)
+    match = re.sub("-[0-9]+-", "-{video}-", url)
     
     if(url == match):
         print(f"[!] Url invalid. Please check the url")
