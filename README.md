@@ -3,6 +3,9 @@
 This python script is for downloading the files that web pages use to show media so you can watch media without annoying ads or pop-ups or being redirect to another web
 
 ## How to use it
+```
+python ./tsDownloader.py -u "{URL}" -n "{FileName4Output}"
+```
 
 |**Flags**||
 |---|---|
